@@ -1,0 +1,107 @@
+/*COLORS*/
+/*font family*/
+/*$fuente1:
+$fuente2:
+/*montserrat titulo
+sans bajada*/
+/*font weight*/
+/*FONT SIZES*/
+.body {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+.nav__logus {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.nav__logo {
+  font-family: "Futura-Normal", arial;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute; }
+
+.nav__logo-art {
+  font-family: "Futura-Normal", arial;
+  font-size: 8px;
+  position: absolute;
+  left: 100px; }
+
+.menu__nav-i {
+  color: black; }
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 18px; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 30px; }
+
+.fotoo {
+  height: 200px;
+  width: 100%; }
+
+.herosection {
+  background-image: url(../img/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px; }
+
+.foto__mujer {
+  width: 65px;
+  border-radius: 198px; }
+
+.bajada {
+  margin: 20px 0px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; }
+
+.video {
+  display: flex;
+  justify-content: center; }
+
+@media (min-width: 992px) {
+  .herosection {
+    height: 250px; }
+
+  .bajada {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto; }
+
+  .video {
+    justify-content: start; } }
+.botones {
+  display: none; }
+
+.boton__celeste {
+  background-color: lightblue;
+  color: #FFF;
+  border: 0;
+  margin-right: 10px; }
+
+.boton__coral {
+  background-color: coral;
+  color: #FFF;
+  border: 0; }
+
+@media (min-width: 992px) {
+  .botones {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
+
+/*# sourceMappingURL=main.css.map */
